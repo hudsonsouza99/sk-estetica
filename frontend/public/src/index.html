@@ -2,10 +2,870 @@
 <html lang="pt-BR">
     <head>
         <!-- meta-tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- meta description -->
+        <meta name="description" content="SK Estética por Sâmia Kenia: serviços de estética em Canarana, incluindo manicure, pedicure, unhas em gel, design de sobrancelhas e agendamentos online flexíveis. da profissional Sâmia Kenia." />
+        <!-- meta keywords -->
+        <meta name="keywords" content="SK Estética, Sâmia Kenia, estética Canarana, manicure, pedicure, unhas em gel, design de sobrancelhas, agendamento online, beleza, cuidados, atendimento personalizado" />
+        <!-- meta author -->
+        <meta name="author" content="Sâmia Kenia, SK Estética" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="SK Estética | Beleza, Manicure, Pedicure e Design de Sobrancelhas" />
+        <meta property="og:description" content="Conheça a SK Estética, um espaço online de beleza por Sâmia Kenia, oferecendo serviços de manicure, pedicure, unhas em gel, design de sobrancelhas e agendamentos flexíveis. Venha desfrutar de um atendimento personalizado e de uma experiência única." />
+        <meta property="og:url" content="https://www.seu-dominio.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.seu-dominio.com/imagens/og-image.jpg" />
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SK Estética | Manicure, Pedicure e Design de Sobrancelhas em Canarana" />
+        <meta name="twitter:description" content="Serviços de manicure, pedicure, unhas em gel, design de sobrancelhas e agendamentos online flexíveis, sob o comando de Sâmia Kenia. Ambiente moderno, atendimento personalizado e interface amigável." />
+        <meta name="twitter:image" content="https://www.seu-dominio.com/imagens/og-image.jpg" />
+        <meta name="robots" content="noindex" /> 
+        <meta name="robots" content="nofollow" />
+        <meta name="googlebot-news" content="noindex" />
+        <meta name="googlebot-news" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <!-- title -->
-        <title>SK Estética</title>
+        <title>SK Estética | Manicure, Pedicure, Unhas em Gel e Design de Sobrancelhas em Canarana</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="./assets/images/sk-logo.jpeg" />
+        <!-- links -->
+        <link rel="canonical" href="https://www.example.com" /> <!-- insert SK Estética Domain name -->
+        <!-- fonts -->
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+                <!-- <noscript> for users with Javascript inactive -->
+                <noscript>
+                    <!-- start styles -->
+                    <style>
+                        .no-js-message {
+                            background-color: #ffdddd;
+                            color: #a00;
+                            padding: 20px;
+                            text-align: center;
+                            font-size: 1.2em;
+                            position: fixed;
+                            top: 0;
+                            width: 100%;
+                            z-index: 1000;
+                        }
+                    </style>
+                    <!-- styles end -->
+                    <div class="no-js-message">
+                        <p>⚠️ For a better experience, please enable JavaScript in your browser.</p>
+                        </div>
+                </noscript>
     </head>
     <body>
-        <h1>Olá, mundo!</h1>
+        <!-- start header -->
+        <header id="main-header" class="navbar">
+            <!-- logo & tagline -->
+            <div class="navbar-logo">
+                <a href="index.html" aria-label="logo">SK Estética</a>
+                <span>Beleza & amor próprio</span>
+            </div>
+
+            <!-- start-menu icon -->
+            <div class="menu-icon pulse" id="menu-icon" onclick="toggleMenu()">
+                <a href="#">
+                    <svg width="24px" height="24px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>menu_navigation_grid [#E112991529]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-99.000000, -200.000000)" fill="#E11299"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M60.85,51 L57.7,51 C55.96015,51 54.55,52.343 54.55,54 L54.55,57 C54.55,58.657 55.96015,60 57.7,60 L60.85,60 C62.58985,60 64,58.657 64,57 L64,54 C64,52.343 62.58985,51 60.85,51 M49.3,51 L46.15,51 C44.41015,51 43,52.343 43,54 L43,57 C43,58.657 44.41015,60 46.15,60 L49.3,60 C51.03985,60 52.45,58.657 52.45,57 L52.45,54 C52.45,52.343 51.03985,51 49.3,51 M60.85,40 L57.7,40 C55.96015,40 54.55,41.343 54.55,43 L54.55,46 C54.55,47.657 55.96015,49 57.7,49 L60.85,49 C62.58985,49 64,47.657 64,46 L64,43 C64,41.343 62.58985,40 60.85,40 M52.45,43 L52.45,46 C52.45,47.657 51.03985,49 49.3,49 L46.15,49 C44.41015,49 43,47.657 43,46 L43,43 C43,41.343 44.41015,40 46.15,40 L49.3,40 C51.03985,40 52.45,41.343 52.45,43" id="menu_navigation_grid-[#E112991529]"> </path> </g> </g> </g> </g></svg>
+                </a>
+            </div>
+            <!-- menu-icon end -->
+
+            <!-- start nav-bar left -->
+            <div class="navbar-center">
+                <ul class="navbar-center-link">
+                    <!-- Unordered list -->
+                    <li>
+                        <a href="index.html" class="active" aria-label="home">Página inicial</a>
+                    </li>
+                    <li>
+                        <a href="#about-me" aria-label="about">Sobre mim</a>
+                    </li>
+                    <!-- dropdown-item -->
+                    <li class="dropdown-item">
+                        <a href="javascript:void(0);" 
+                            class="dropdown-toggle" 
+                            aria-haspopup="true" 
+                            aria-expanded="false" 
+                            aria-label="services">
+                            Serviços 
+                            <i class="fa-solid fa-chevron-down"></i> <!-- icon -->
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#alongamentos">Alongamentos</a>
+                            </li>
+                            <li>
+                                <a href="#manicure">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="#Pedicure">Pedicure</a>
+                            </li>
+                            <li>
+                              <a href="#inspiracion">Inspire-se</a>
+                            </li>
+                            <li>
+                              <a href="#others">Outros</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#gallery" aria-label="gallery">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./pages/loyalty-program.html" aria-label="loyalty-program">Programa Fidelidade</a>
+                    </li>
+                    <li>
+                      <a href="#">Marcações online</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- start navbar-right -->
+            <div class="navbar-right">
+                <div class="navbar-tools">
+                    <a href="#" class="social-icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+                <div class="make-appointment">
+                    <a href="./pages/login.html">
+                        <svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"></g><g id="SVGRepo_iconCarrier"> <path d="M12.75 8C12.75 7.58579 12.4142 7.25 12 7.25C11.5858 7.25 11.25 7.58579 11.25 8H12.75ZM11.25 16C11.25 16.4142 11.5858 16.75 12 16.75C12.4142 16.75 12.75 16.4142 12.75 16H11.25ZM8 11.25C7.58579 11.25 7.25 11.5858 7.25 12C7.25 12.4142 7.58579 12.75 8 12.75V11.25ZM16 12.75C16.4142 12.75 16.75 12.4142 16.75 12C16.75 11.5858 16.4142 11.25 16 11.25V12.75ZM14.7501 4.21925C15.1406 4.35728 15.5691 4.15259 15.7071 3.76205C15.8452 3.37151 15.6405 2.94302 15.2499 2.80499L14.7501 4.21925ZM20.1077 6.58281C19.8773 6.23859 19.4115 6.14633 19.0673 6.37674C18.723 6.60715 18.6308 7.07298 18.8612 7.41719L20.1077 6.58281ZM10 12.75C10.4142 12.75 10.75 12.4142 10.75 12C10.75 11.5858 10.4142 11.25 10 11.25V12.75ZM12 11.25C11.5858 11.25 11.25 11.5858 11.25 12C11.25 12.4142 11.5858 12.75 12 12.75V11.25ZM11.25 8V16H12.75V8H11.25ZM20.25 12C20.25 16.5563 16.5563 20.25 12 20.25V21.75C17.3848 21.75 21.75 17.3848 21.75 12H20.25ZM12 20.25C7.44365 20.25 3.75 16.5563 3.75 12H2.25C2.25 17.3848 6.61522 21.75 12 21.75V20.25ZM3.75 12C3.75 7.44365 7.44365 3.75 12 3.75V2.25C6.61522 2.25 2.25 6.61522 2.25 12H3.75ZM12 3.75C12.9656 3.75 13.8909 3.91557 14.7501 4.21925L15.2499 2.80499C14.2324 2.44535 13.1382 2.25 12 2.25V3.75ZM18.8612 7.41719C19.7384 8.7277 20.25 10.303 20.25 12H21.75C21.75 9.99674 21.145 8.1325 20.1077 6.58281L18.8612 7.41719ZM8 12.75H10V11.25H8V12.75ZM12 12.75H16V11.25H12V12.75Z" fill="#fd267a"></path> </g></svg>
+                        Marcar horário</a>
+                </div>
+            </div>
+            <!-- navbar-right end -->
+
+            <!-- start menu-mobile -->
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="mobile-menu-header">
+                    <div class="mobile-menu-logo">
+                        <a href="#home" aria-label="Página inicial" class="logo-link">
+                            <img src="./assets/images/SK.png" alt="logo" loading="lazy" />
+                            <span class="logo-text">Sk estética</span>
+                        </a>
+                        <span class="logo-tagline">Beleza & amor próprio</span>
+                    </div>
+                    <div class="close-menu" id="close-menu">
+                        <a href="#" id="close">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z" fill="#0F0F0F"></path> </g></svg>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <ul class="mobile-menu-links">
+                    <li>
+                        <a href="#home">Página inicial</a>
+                    </li>
+                    <li>
+                        <a href="#about">Sobre mim</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#know" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false" aria-label="Saiba Mais">Serviços 
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" aria-label="galeria">Alongamentos</a>
+                            </li>
+                            <li>
+                                <a href="#">Manicure</a>
+                            </li>
+                            <li>
+                                <a href="#">Pedicure</a>
+                            </li>
+                            <li>
+                                <a href="#">Design de sobrancelhas</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#gallery">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./pages/loyalty-program.html">Programa fidelidade</a>
+                    </li>
+                    <li>
+                      <a href="#">Marcações online</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu-center">
+                    <div class="mobile-book-date">
+                        <a href="#">
+                            <svg width="24px" height="24px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"></g><g id="SVGRepo_iconCarrier"> <path d="M12.75 8C12.75 7.58579 12.4142 7.25 12 7.25C11.5858 7.25 11.25 7.58579 11.25 8H12.75ZM11.25 16C11.25 16.4142 11.5858 16.75 12 16.75C12.4142 16.75 12.75 16.4142 12.75 16H11.25ZM8 11.25C7.58579 11.25 7.25 11.5858 7.25 12C7.25 12.4142 7.58579 12.75 8 12.75V11.25ZM16 12.75C16.4142 12.75 16.75 12.4142 16.75 12C16.75 11.5858 16.4142 11.25 16 11.25V12.75ZM14.7501 4.21925C15.1406 4.35728 15.5691 4.15259 15.7071 3.76205C15.8452 3.37151 15.6405 2.94302 15.2499 2.80499L14.7501 4.21925ZM20.1077 6.58281C19.8773 6.23859 19.4115 6.14633 19.0673 6.37674C18.723 6.60715 18.6308 7.07298 18.8612 7.41719L20.1077 6.58281ZM10 12.75C10.4142 12.75 10.75 12.4142 10.75 12C10.75 11.5858 10.4142 11.25 10 11.25V12.75ZM12 11.25C11.5858 11.25 11.25 11.5858 11.25 12C11.25 12.4142 11.5858 12.75 12 12.75V11.25ZM11.25 8V16H12.75V8H11.25ZM20.25 12C20.25 16.5563 16.5563 20.25 12 20.25V21.75C17.3848 21.75 21.75 17.3848 21.75 12H20.25ZM12 20.25C7.44365 20.25 3.75 16.5563 3.75 12H2.25C2.25 17.3848 6.61522 21.75 12 21.75V20.25ZM3.75 12C3.75 7.44365 7.44365 3.75 12 3.75V2.25C6.61522 2.25 2.25 6.61522 2.25 12H3.75ZM12 3.75C12.9656 3.75 13.8909 3.91557 14.7501 4.21925L15.2499 2.80499C14.2324 2.44535 13.1382 2.25 12 2.25V3.75ZM18.8612 7.41719C19.7384 8.7277 20.25 10.303 20.25 12H21.75C21.75 9.99674 21.145 8.1325 20.1077 6.58281L18.8612 7.41719ZM8 12.75H10V11.25H8V12.75ZM12 12.75H16V11.25H12V12.75Z" fill="#ffffff"></path> </g></svg>
+                            Marcar horário
+                        </a>
+                    </div>
+                </div>
+                <div class="mobile-social-icons">
+                    <a href="#" class="social-icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+        <!-- mobile-menu end -->
+        </header>
+        <!-- header end -->
+
+        <!-- start hero-section -->
+        <section class="hero-section">
+            <!-- Background Slideshow -->
+            <div id="elementor-background-slideshow.swiper" class="elementor-background-slideshow swiper swiper-fade">
+                <div class="swiper-wrapper">
+                    <!-- Cada slide possui uma imagem de fundo -->
+                    <div class="swiper-slide" style="background-image:url('./assets/images/nail-design-1.jpg');"></div>
+                    <div class="swiper-slide" style="background-image:url('./assets/images/nail-design-2.jpg');"></div>
+                    <div class="swiper-slide" style="background-image:url('./assets/images/background-nails-colors.jpg');"></div>
+                </div>
+                <!-- Controles do Swiper (opcionais) -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev" aria-label="Slide anterior"></div>
+                <div class="swiper-button-next" aria-label="Próximo slide"></div>
+            </div>
+
+            <!-- Camada de Conteúdo (Título, Subtítulo, CTA) -->
+            <div class="elementor hero-content">
+                <h1 class="hero-title">Sâmia Kenia <i>nail designer</i> & Especialista em tratar da sua beleza e auto-estima</h1>
+                <p class="hero-subtitle">Vem saber mais sobre nossos serviços</p>
+                <a class="hero-cta-button" href="#comprar">Agendar online</a>
+            </div>
+            <div class="loc-canarana">
+                <a href="#">Canarana, Mato grosso
+                    <svg width="18px" height="18px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.36328 12.0523C4.01081 11.5711 3.33457 11.3304 3.13309 10.9655C2.95849 10.6492 2.95032 10.2673 3.11124 9.94388C3.29694 9.57063 3.96228 9.30132 5.29295 8.76272L17.8356 3.68594C19.1461 3.15547 19.8014 2.89024 20.2154 3.02623C20.5747 3.14427 20.8565 3.42608 20.9746 3.7854C21.1106 4.19937 20.8453 4.85465 20.3149 6.16521L15.2381 18.7078C14.6995 20.0385 14.4302 20.7039 14.0569 20.8896C13.7335 21.0505 13.3516 21.0423 13.0353 20.8677C12.6704 20.6662 12.4297 19.99 11.9485 18.6375L10.4751 14.4967C10.3815 14.2336 10.3347 14.102 10.2582 13.9922C10.1905 13.8948 10.106 13.8103 10.0086 13.7426C9.89876 13.6661 9.76719 13.6193 9.50407 13.5257L5.36328 12.0523Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </a>
+            </div>
+        </section>
+        <!-- hero-section end -->
+
+        <main>
+          <!-- start services -->
+          <section class="services-section" id="services">
+            <div class="elementor container inner">
+              <!-- Cabeçalho da Secção -->
+              <div class="services-header">
+                <div class="services-title-block">
+                  <h6 class="services-subtitle"><em>Hora de Relaxar</em></h6>
+                  <h2 class="services-main-title">Confira nossos serviços exclusivos</h2>
+                </div>
+                <a class="services-view-all" href="/todos-os-servicos">
+                  Ver todos os serviços <i class="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+          
+              <!-- Flex Container de Serviços -->
+              <div class="services-grid">
+                <!-- Exemplo de Flip Box 1: Nail Designer -->
+                <a class="flip-box" href="/servico/nail-designer">
+                  <div class="flip-box-content">
+                    <!-- Container da imagem (slideshow automático) -->
+                    <div class="flip-box-image" data-interval="4000">
+                      <!-- Imagens alternam via JS -->
+                      <img src="./assets/images/nail-1.jpg" alt="Nail Designer" class="active"/>
+                      <img src="./assets/images/nail-2.jpg" alt="Nail Designer"/>
+                      <img src="./assets/images/nail-3.jpg" alt="Nail Designer"/>
+                    </div>
+                    <!-- Título e Descrição -->
+                    <div class="flip-box-info">
+                      <h3>Nail Designer</h3>
+                      <p>Unhas artísticas e sofisticadas</p>
+                    </div>
+                  </div>
+                </a>
+          
+                <!-- Flip Box 2: Manicure -->
+                <a class="flip-box" href="/servico/manicure">
+                  <div class="flip-box-content">
+                    <div class="flip-box-image" data-interval="6000">
+                      <img src="./assets/images/nail-4.jpg" alt="Manicure" class="active"/>
+                      <img src="./assets/images/nail-5.jpg" alt="Manicure"/>
+                    </div>
+                    <div class="flip-box-info">
+                      <h3>Manicure</h3>
+                      <p>Cuidados e tratamentos para mãos impecáveis</p>
+                    </div>
+                  </div>
+                </a>
+          
+                <!-- Flip Box 3: Sobrancelhas -->
+                <a class="flip-box" href="/servico/sobrancelhas">
+                  <div class="flip-box-content">
+                    <div class="flip-box-image" data-interval="8000">
+                      <img src="./assets/images/sobrancelhas-2.jpg" alt="Sobrancelhas" class="active"/>
+                      <img src="./assets/images/sobrancelhas-3.jpg" alt="Sobrancelhas"/>
+                    </div>
+                    <div class="flip-box-info">
+                      <h3>Sobrancelhas</h3>
+                      <p>Design perfeito para o seu olhar</p>
+                    </div>
+                  </div>
+                </a>
+          
+                <!-- Exemplo adicional: Pedicure -->
+                <a class="flip-box" href="/servico/pedicure">
+                  <div class="flip-box-content">
+                    <div class="flip-box-image" data-interval="10000">
+                      <img src="./assets/images/pedicure-1.jpg" alt="Pedicure" class="active"/>
+                      <img src="./assets/images/pedicure-2.jpg" alt="Pedicure"/>
+                    </div>
+                    <div class="flip-box-info">
+                      <h3>Pedicure</h3>
+                      <p>Pés saudáveis e lindos</p>
+                    </div>
+                  </div>
+                </a>
+          
+                <!-- Exemplo adicional: Maquiagem -->
+                <a class="flip-box" href="/servico/maquiagem">
+                  <div class="flip-box-content">
+                    <div class="flip-box-image" data-interval="12000">
+                      <img src="./assets/images/maquiagem-2.jpg" alt="Maquiagem" class="active"/>
+                      <img src="./assets/images/maquiagem-2.jpg" alt="Maquiagem"/>
+                    </div>
+                    <div class="flip-box-info">
+                      <h3>Maquiagem</h3>
+                      <p>Realce a sua beleza natural</p>
+                    </div>
+                  </div>
+                </a>
+          
+              </div>
+            </div>
+          </section>
+          <!-- services end -->
+
+          <!-- start pricing section -->~
+          <!-- pricing section end -->
+
+          <hr class="horizontal-line"/>
+          <!-- Start gallery-container -->
+          <section id="gallery" class="gallery-section">
+            <div class="gallery-heading-text">
+              <h3>A minha galeria</h3>
+            </div>
+            <div class="gallery-subheader">
+              <div class="gallery-label">
+                <a href="#" class="gallery-label-visit">Ver tudo <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+            <div class="gallery-container">
+              <!-- box 1 -->
+              <div class="gallery-box">
+                <img src="./assets/images/design-1.jpg" alt="imagem">
+              </div>
+              <!-- box 2 -->
+              <div class="gallery-box">
+                <img src="./assets/images/nail-1.jpg" alt="imagem">
+              </div>
+              <!-- box 3 -->
+              <div class="gallery-box">
+                <img src="./assets/images/design-2.jpg" alt="imagem">
+              </div>
+              <!-- box 4 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-2.jpg" alt="imagem">
+              </div>
+              <!-- box 5 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-3.jpg" alt="imagem">
+              </div>
+              <!-- box 6 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-4.jpg" alt="imagem">
+              </div>
+              <!-- box 7 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-5.jpg" alt="imagem">
+              </div>
+              <!-- box 8 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-6.jpg" alt="imagem">
+              </div>
+              <!-- box 9 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-9.jpg" alt="imagem">
+              </div>
+              <!-- box 10 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/design-3.jpg" alt="imagem">
+              </div>
+              <!-- box 11 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/nail-8.jpg" alt="imagem">
+              </div>
+              <!-- box 12 -->
+              <div class="gallery-box">
+                  <img src="./assets/images/background-nails-colors.jpg" alt="imagem">
+              </div>
+              <!-- Contêiner para as imagens adicionais -->
+          
+              <!-- box 13 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/nail-10.jpg" alt="imagem">
+              </div>
+              <!-- box 14 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/nail-11.jpg" alt="imagem">
+              </div>
+              <!-- box 15 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/nail-12.jpg" alt="imagem">
+              </div>
+              <!-- box 16 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/nail-13.jpg" alt="imagem">
+              </div>
+              <!-- box 17 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 18 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 19 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 20 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 21 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 22 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 23 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+              <!-- box 24 -->
+              <div class="gallery-box hidden-image">
+                  <img src="./assets/images/manicure-1.jpg" alt="imagem">
+              </div>
+            </div>
+          <div class="load-more-container">
+            <button class="load-more-btn" id="load-more-btn">
+              Ver mais <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <button class="load-less-btn" id="load-less-btn">
+              Ver menos <i class="fa-solid fa-chevron-up"></i>
+            </button>
+          </div>
+        </section>
+        <!-- end gallery-container -->
+
+        <!-- start our products -->
+        <section class="brands-section">
+          <h2 class="brands-title">As nossas marcas</h2>
+          <div class="brands-container">
+            <div class="brands-wrapper">
+              <!-- Adicione as imagens das marcas aqui -->
+              <div class="brand-item"><img src="./assets/images/volia-cosmeticos-logo.png" alt="Marca 1"></div>
+              <div class="brand-item"><img src="./assets/images/real_love.png" alt="Marca 2"></div>
+              <div class="brand-item"><img src="./assets/images/nails21.png" alt="Marca 3"></div>
+              <div class="brand-item"><img src="./assets/images/opi-logo.png" alt="Marca 4"></div>
+              <div class="brand-item"><img src="./assets/images/xed.png" alt="Marca 5"></div>
+              <div class="brand-item"><img src="./assets/images/start-nail.png" alt="Marca 6"></div>
+              <!-- Repita para todas as marcas -->
+            </div>
+            <!-- Gradientes nas bordas -->
+            <div class="gradient left"></div>
+            <div class="gradient right"></div>
+          </div>
+          <!-- Botões de navegação -->
+          <button class="nav-button left-button" aria-label="Deslizar para a esquerda">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="nav-button right-button" aria-label="Deslizar para a direita">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </section>
+        <!-- our products end -->
+
+        <!-- start testimonials -->
+        <section class="testimonials">
+            <h2>palavras de elogio de outras pessoas <br>sobre a nossa presença</h2>
+            <a href="#" class="view-all-link">ver todos <i class="fa-solid fa-chevron-right"></i></a>
+
+          
+            <div class="testimonials-container">
+              <!-- Primeira linha (3 boxes + 3 duplicadas = 6 no total) -->
+              <div class="row first-row">
+                <!-- 3 boxes originais -->
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Achei lindas! Adorei as unhas</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Naemy Oliveira</span>
+                      <div class="comment-social">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Profissionais dedicadas, resultado impecável!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">João Pereira</span>
+                      <div class="comment-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ambiente perfeito, minha pele está radiante!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Ana Costa</span>
+                      <div class="comment-social">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Duplicadas -->
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Atendimento incrível, recomendo muito!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Maria Santos</span>
+                      <div class="comment-social">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Profissionais dedicadas, resultado impecável!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">João Pereira</span>
+                      <div class="comment-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ambiente perfeito, minha pele está radiante!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Ana Costa</span>
+                      <div class="comment-social">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Segunda linha (3 boxes + 3 duplicadas) -->
+              <div class="row second-row">
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ótimo custo-benefício, voltarei sempre!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Carla Ferreira</span>
+                      <div class="comment-social">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ambiente aconchegante e resultado perfeito!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Paula Correia</span>
+                      <div class="comment-social">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Excelência do início ao fim!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Mariana Silva</span>
+                      <div class="comment-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Duplicadas -->
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ótimo custo-benefício, voltarei sempre!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Carla Ferreira</span>
+                      <div class="comment-social">
+                        <i class="fab fa-google"></i>
+                        <span>Google</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Ambiente aconchegante e resultado perfeito!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Paula Correia</span>
+                      <div class="comment-social">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="comment-box">
+                  <i class="fas fa-quote-left quotes"></i>
+                  <p class="comment-text">Excelência do início ao fim!</p>
+                  <div class="comment-footer">
+                    <img src="https://via.placeholder.com/40" class="avatar" alt="Avatar">
+                    <div class="comment-info">
+                      <span class="comment-name">Mariana Silva</span>
+                      <div class="comment-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- testimonials end -->
+              
+        <!-- start about-me -->
+        <section id="about-me" class="about-me">
+            <div class="container">
+                <div class="about-me-image">
+                    <img src="./assets/images/samiaKenia.jpeg" alt="Foto de Sâmia Kenia" loading="lazy">
+                </div>
+                <div class="about-me-content">
+                    <h2>Sobre Mim</h2>
+                    <hr>
+                    <p>
+                        Olá! Eu sou a <strong>Sâmia Kenia</strong>, apaixonada por transformar unhas em verdadeiras obras de arte. Desde pequena, sempre me encantou a beleza dos detalhes e a capacidade que temos de expressar nossa personalidade através das unhas. Com anos de experiência e uma formação sólida em estética, dedico-me a oferecer não apenas serviços de manicure e pedicure, mas também uma experiência única e personalizada para cada cliente.
+                    </p>
+                    <hr class="hr-line" />
+                    <p>
+                        Acredito que cada unha conta uma história, e é por isso que estou constantemente atualizando minhas técnicas e acompanhando as últimas tendências do mundo da beleza. Seja para um design clássico ou uma criação mais ousada e moderna, meu objetivo é realçar a beleza natural de cada pessoa que passa pelo meu Estúdio.
+                    </p>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/skestetica" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/skestetica" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/skestetica" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <span> Redes sociais </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- start FAQ section -->
+        <section class="faq-section" id="faq">
+          <div class="faq-header">
+            <h2 class="faq-title">Perguntas Frequentes</h2>
+            <p class="faq-subtitle">
+              Respostas rápidas às perguntas que você possa ter. Não encontra o que está procurando? <br>
+              Entre em contato conosco para esclarecer qualquer outra dúvida diretamente.
+            </p>
+            <div class="contact-buttons">
+              <a href="https://wa.me/SEUNUMERODOWHATSAPP" class="contact-btn whatsapp-btn" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+              <a href="sms:+SEUNUMERODESMS" class="contact-btn sms-btn">
+                <i class="fas fa-sms"></i> SMS
+              </a>
+            </div>
+          </div>
+      
+          <div class="faq-container">
+            <!-- Pergunta 1 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Como funciona o agendamento online?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Para agendar, basta acessar nosso site, selecionar o serviço desejado, escolher o horário disponível e confirmar o agendamento. Você receberá uma confirmação por e-mail ou WhatsApp.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 2 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Posso remarcar ou cancelar meu agendamento?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Nossa política permite remarcação ou cancelamento com até 24 horas de antecedência, sem custos. Após esse prazo, poderá haver taxas. Consulte nossos termos no momento do agendamento.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 3 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Quais são as formas de pagamento aceitas?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Aceitamos cartão de crédito, débito, PIX e dinheiro. Caso tenha dúvidas sobre outro meio de pagamento, entre em contato.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 4 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Qual é a duração média de cada serviço?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Manicure ou pedicure geralmente duram cerca de 30 a 40 minutos. Design de sobrancelhas leva em média 20 minutos. Consulte o tempo exato na página de cada serviço.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 5 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                É possível escolher a profissional que realizará o serviço?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Todos os procedimentos são realizados pela profissional <strong>Sâmia Kenia</strong>, garantindo um padrão de qualidade e atendimento personalizado.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 6 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Quais são as medidas de higiene e segurança adotadas?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Utilizamos instrumentos esterilizados, materiais descartáveis e seguimos rigorosos protocolos de higiene. Sua segurança e bem-estar são nossa prioridade.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 7 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Vocês realizam serviços a domicílio?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  No momento, atendemos apenas em nosso espaço físico. Não realizamos serviços a domicílio.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Pergunta 8 -->
+            <div class="faq-item">
+              <button class="faq-question">
+                Como entrar em contato em caso de dúvidas adicionais?
+                <i class="fas fa-chevron-down chevron"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Você pode entrar em contato pelo telefone, WhatsApp, e-mail ou pelo chat online em nosso site. Teremos prazer em ajudar.
+                </p>
+              </div>
+            </div>
+      
+          </div>
+        </section>
+      
+    
+        <!-- FAQ section end -->
+
+        <!-- start contact section -->
+        <!-- contact section end -->
+        </main>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./scripts/script.js" defer></script>
     </body>
 </html>
