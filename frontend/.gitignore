@@ -52,45 +52,44 @@ git add frontend/css/style.css
 git commit -m "style(frontend): implement responsive design for all sections" ✅
 
 git add frontend/css/style.css frontend/js/main.js
-git commit -m "feat(frontend): adicionar transições e animações para elementos interativos"
+git commit -m "feat(frontend): add transitions and animations to interactive elements" ✅
 
 git add frontend/index.html frontend/js/main.js frontend/css/style.css
-git commit -m "feat(frontend): adicionar slider/carrossel na seção Galeria"
+git commit -m "feat(frontend): add slider/carousel in Gallery section" ✅
 
 git add frontend/index.html frontend/css/style.css frontend/js/main.js
-git commit -m "feat(frontend): adicionar formulário de contato na seção Contato"
-
+git commit -m "feat(frontend): add contact form in Contact section" ✅
 
 git add frontend/js/main.js frontend/css/style.css
-git commit -m "feat(frontend): implementar scrollspy para destacar links de navegação ativos"
+git commit -m "feat(frontend): implement scrollspy to highlight active navigation links" ✅
 
 
 git add frontend/js/main.js
-git commit -m "feat(frontend): conectar front-end com API GraphQL para dados dinâmicos"
+git commit -m "feat(frontend): connect front-end with GraphQL API for dynamic data" ✅
 
 
 git add frontend/index.html frontend/js/main.js frontend/css/style.css
-git commit -m "feat(frontend): implementar autenticação (login e registro) conectada ao backend"
+git commit -m "feat(frontend): implement authentication (login and registration) connected to the backend" ✅
 
 
 git add frontend/index.html frontend/js/main.js frontend/css/style.css
-git commit -m "feat(frontend): adicionar sistema de agendamento dinâmico integrado ao backend"
+git commit -m "feat(frontend): add integrated dynamic scheduling system to the backend" ✅
 
 
 git add frontend/index.html frontend/css/style.css frontend/js/main.js
-git commit -m "feat(frontend): adicionar seção Pricing com pacotes e planos de serviços"
+git commit -m "feat(frontend): add Pricing section with packages and service plans" ✅
 
 
 git add frontend/index.html frontend/css/style.css frontend/js/main.js
-git commit -m "feat(frontend): adicionar seção Equipa/Profissionais com perfis detalhados"
+git commit -m "feat(frontend): add Team/Professionals section with detailed profiles" ✅
 
 
 git add frontend/index.html frontend/css/style.css frontend/js/main.js
-git commit -m "feat(frontend): adicionar seção Programas de Fidelidade e Recompensas para clientes"
+git commit -m "feat(frontend): add Loyalty and Rewards Programs section for customers" ✅
 
 
 git add frontend/img/
-git commit -m "perf(frontend): otimizar imagens para melhorar a performance do site"
+git commit -m "perf(frontend): optimize images to improve website performance" ✅
 
 
 git add frontend/js/main.js frontend/index.html
