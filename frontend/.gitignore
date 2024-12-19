@@ -1,0 +1,36 @@
+command = 
+git add frontend/
+
+git commit -m "chore(frontend): initialize project with index.html, css and JavaScript directories" ✅
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(header): adicionar seção Header com logo e links de navegação" 
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(hero): adicionar seção Hero com título, descrição e botão CTA"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(services): adicionar seção Services exibindo os serviços oferecidos"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(galeria): adicionar seção Galeria exibindo portfólio de trabalhos"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(our-brands): adicionar seção Our Brands destacando marcas utilizadas"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(testimonials): adicionar seção Testimonials com depoimentos de clientes"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(about): adicionar seção About Us com informações sobre a SK Estética"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(faq): adicionar seção FAQ com perguntas frequentes dos clientes"
