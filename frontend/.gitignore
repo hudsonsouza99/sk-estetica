@@ -5,32 +5,167 @@ git commit -m "chore(frontend): initialize project with index.html, css and Java
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(header): adicionar seção Header com logo e links de navegação" 
+git commit -m "feat(header): add section Header with logo and navigation links" git ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(hero): adicionar seção Hero com título, descrição e botão CTA"
+git commit -m "feat(hero): add Hero section with title, description and CTA button" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(services): adicionar seção Services exibindo os serviços oferecidos"
+git commit -m "feat(services): add Services section displaying the services offered" ✅
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(galeria): add Gallery section displaying portfolio of work" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(galeria): adicionar seção Galeria exibindo portfólio de trabalhos"
+git commit -m "feat(our-brands): add Our Brands section highlighting brands used" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(our-brands): adicionar seção Our Brands destacando marcas utilizadas"
+git commit -m "feat(testimonials): add Testimonials section with customer testimonials" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(testimonials): adicionar seção Testimonials com depoimentos de clientes"
+git commit -m "feat(about): add About Us section with information about SK Estética" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(about): adicionar seção About Us com informações sobre a SK Estética"
+git commit -m "feat(faq): add FAQ section with frequently asked questions from customers" ✅
 
 
 git add frontend/index.html css/style.css js/main.js
-git commit -m "feat(faq): adicionar seção FAQ com perguntas frequentes dos clientes"
+git commit -m "feat(header): add navigation links to sections with anchors" ✅
+
+
+git add js/main.js
+git commit -m "feat(navigation): implement smooth scrolling for navigation between anchors" ✅
+
+git add css/style.css
+git commit -m "style(navigation): add styles for active state of navigation links" ✅
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "test(navigation): test and refine navigation between anchors on multiple devices" ✅
+
+git add frontend/css/style.css
+git commit -m "style(frontend): implement responsive design for all sections" ✅
+
+git add frontend/css/style.css frontend/js/main.js
+git commit -m "feat(frontend): adicionar transições e animações para elementos interativos"
+
+git add frontend/index.html frontend/js/main.js frontend/css/style.css
+git commit -m "feat(frontend): adicionar slider/carrossel na seção Galeria"
+
+git add frontend/index.html frontend/css/style.css frontend/js/main.js
+git commit -m "feat(frontend): adicionar formulário de contato na seção Contato"
+
+
+git add frontend/js/main.js frontend/css/style.css
+git commit -m "feat(frontend): implementar scrollspy para destacar links de navegação ativos"
+
+
+git add frontend/js/main.js
+git commit -m "feat(frontend): conectar front-end com API GraphQL para dados dinâmicos"
+
+
+git add frontend/index.html frontend/js/main.js frontend/css/style.css
+git commit -m "feat(frontend): implementar autenticação (login e registro) conectada ao backend"
+
+
+git add frontend/index.html frontend/js/main.js frontend/css/style.css
+git commit -m "feat(frontend): adicionar sistema de agendamento dinâmico integrado ao backend"
+
+
+git add frontend/index.html frontend/css/style.css frontend/js/main.js
+git commit -m "feat(frontend): adicionar seção Pricing com pacotes e planos de serviços"
+
+
+git add frontend/index.html frontend/css/style.css frontend/js/main.js
+git commit -m "feat(frontend): adicionar seção Equipa/Profissionais com perfis detalhados"
+
+
+git add frontend/index.html frontend/css/style.css frontend/js/main.js
+git commit -m "feat(frontend): adicionar seção Programas de Fidelidade e Recompensas para clientes"
+
+
+git add frontend/img/
+git commit -m "perf(frontend): otimizar imagens para melhorar a performance do site"
+
+
+git add frontend/js/main.js frontend/index.html
+git commit -m "perf(frontend): implementar lazy loading para imagens na galeria"
+
+
+git add frontend/index.html
+git commit -m "perf(frontend): adicionar meta tags para otimização de SEO"
+
+
+git add frontend/.eslintrc.js frontend/.prettierrc frontend/package.json
+git commit -m "chore(frontend): configurar ESLint e Prettier para qualidade de código"
+
+
+git add frontend/tests/main.test.js
+git commit -m "test(frontend): adicionar testes unitários para funções JavaScript"
+
+
+git add frontend/tests/integration.test.js
+git commit -m "test(frontend): adicionar testes de integração entre front-end e backend"
+
+
+
+
+
+
+
+
+START BACKEND 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+git add backend/
+git commit -m "chore(backend): inicializar projeto NestJS com estrutura básica"
+
+git add backend/src/app.module.ts backend/package.json backend/tsconfig.json
+git commit -m "feat(backend): configurar GraphQL com Apollo Server no NestJS"
+
+git add backend/src/modules/users/
+git commit -m "feat(backend): adicionar módulo Users com resolvers e serviços"
+
+
+git add backend/prisma/schema.prisma backend/package.json
+git commit -m "feat(backend): configurar Prisma ORM com PostgreSQL"
+
+
+git add backend/src/modules/scheduling/
+git commit -m "feat(backend): adicionar módulo Scheduling para gerenciar reservas e disponibilidade"
+
+
+git add backend/src/auth/
+git commit -m "feat(backend): implementar autenticação JWT no NestJS"
+
+
+git add backend/test/
+git commit -m "test(backend): adicionar testes básicos para endpoints GraphQL"
+
+
+git add backend/src/schema.gql backend/README.md
+git commit -m "docs(backend): documentar esquema e resolvers da API GraphQL"
+
+
+git add frontend/index.html css/style.css js/main.js
+git commit -m "feat(navigation): adicionar links de navegação com scroll suave e estado ativo"
+
+
+git add backend/
+git commit -m "feat(backend): configurar NestJS com GraphQL e Prisma ORM para PostgreSQL"
+
+
+git add backend/src/modules/users backend/src/modules/scheduling
+git commit -m "feat(backend): adicionar módulos Users e Scheduling com resolvers e serviços"
+
+
+git add backend/src/auth backend/test/
+git commit -m "feat(backend): implementar autenticação JWT e adicionar testes básicos"
+
+
+
